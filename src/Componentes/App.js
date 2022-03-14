@@ -1,6 +1,7 @@
 import Navbar from './Navbar';
 import Esquerda from './Esquerda';
 import Sidebar from './Sidebar';
+import Footer from './Footer';
 
 export default function App(){
     return (
@@ -10,6 +11,7 @@ export default function App(){
         <Esquerda />
         <Sidebar />
       </div>
+      <Footer />
     </div>
     );
 }
